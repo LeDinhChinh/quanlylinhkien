@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8482EB0D21C26A6A002D338D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482EB0C21C26A6A002D338D /* AppDelegate.swift */; };
+		8482EB0F21C26A6A002D338D /* VCCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482EB0E21C26A6A002D338D /* VCCollectionItem.swift */; };
+		8482EB1221C26A6A002D338D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8482EB1021C26A6A002D338D /* Main.storyboard */; };
+		8482EB1721C26A6B002D338D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8482EB1521C26A6B002D338D /* LaunchScreen.storyboard */; };
+		8482EB2221C26A6B002D338D /* Quan_Ly_Hang_HoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482EB2121C26A6B002D338D /* Quan_Ly_Hang_HoaTests.swift */; };
+		8482EB2D21C26A6B002D338D /* Quan_Ly_Hang_HoaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482EB2C21C26A6B002D338D /* Quan_Ly_Hang_HoaUITests.swift */; };
+		848DFD1821C2895B00600533 /* UIView+Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DFD1721C2895B00600533 /* UIView+Borders.swift */; };
+		848DFD2021C292F600600533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848DFD1F21C292F600600533 /* Assets.xcassets */; };
+		848DFD2621C2AD9700600533 /* VCAddNewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DFD2521C2AD9700600533 /* VCAddNewItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8482EB1E21C26A6B002D338D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8482EB0121C26A6A002D338D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8482EB0821C26A6A002D338D;
+			remoteInfo = "Quan Ly Hang Hoa";
+		};
+		8482EB2921C26A6B002D338D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8482EB0121C26A6A002D338D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8482EB0821C26A6A002D338D;
+			remoteInfo = "Quan Ly Hang Hoa";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8482EB0921C26A6A002D338D /* Quan Ly Hang Hoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quan Ly Hang Hoa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8482EB0C21C26A6A002D338D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8482EB0E21C26A6A002D338D /* VCCollectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCCollectionItem.swift; sourceTree = "<group>"; };
+		8482EB1121C26A6A002D338D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8482EB1621C26A6B002D338D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8482EB1821C26A6B002D338D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8482EB1D21C26A6B002D338D /* Quan Ly Hang HoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quan Ly Hang HoaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8482EB2121C26A6B002D338D /* Quan_Ly_Hang_HoaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quan_Ly_Hang_HoaTests.swift; sourceTree = "<group>"; };
+		8482EB2321C26A6B002D338D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8482EB2821C26A6B002D338D /* Quan Ly Hang HoaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quan Ly Hang HoaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8482EB2C21C26A6B002D338D /* Quan_Ly_Hang_HoaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quan_Ly_Hang_HoaUITests.swift; sourceTree = "<group>"; };
+		8482EB2E21C26A6B002D338D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848DFD1721C2895B00600533 /* UIView+Borders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Borders.swift"; path = "../../../Documents/UIView-Borders-Swift-master/UIViewBordersSwift/UIView+Borders.swift"; sourceTree = "<group>"; };
+		848DFD1C21C2903600600533 /* UIView+Borders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Borders.swift"; sourceTree = "<group>"; };
+		848DFD1F21C292F600600533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		848DFD2521C2AD9700600533 /* VCAddNewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCAddNewItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8482EB0621C26A6A002D338D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8482EB1A21C26A6B002D338D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8482EB2521C26A6B002D338D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8482EB0021C26A6A002D338D = {
+			isa = PBXGroup;
+			children = (
+				8482EB0B21C26A6A002D338D /* Quan Ly Hang Hoa */,
+				8482EB2021C26A6B002D338D /* Quan Ly Hang HoaTests */,
+				8482EB2B21C26A6B002D338D /* Quan Ly Hang HoaUITests */,
+				8482EB0A21C26A6A002D338D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8482EB0A21C26A6A002D338D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8482EB0921C26A6A002D338D /* Quan Ly Hang Hoa.app */,
+				8482EB1D21C26A6B002D338D /* Quan Ly Hang HoaTests.xctest */,
+				8482EB2821C26A6B002D338D /* Quan Ly Hang HoaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8482EB0B21C26A6A002D338D /* Quan Ly Hang Hoa */ = {
+			isa = PBXGroup;
+			children = (
+				8482EB3A21C26ACD002D338D /* ViewController */,
+				848DFD1921C2902100600533 /* Extention */,
+				8482EB1021C26A6A002D338D /* Main.storyboard */,
+				8482EB0C21C26A6A002D338D /* AppDelegate.swift */,
+				848DFD1721C2895B00600533 /* UIView+Borders.swift */,
+				8482EB1521C26A6B002D338D /* LaunchScreen.storyboard */,
+				848DFD1F21C292F600600533 /* Assets.xcassets */,
+				8482EB1821C26A6B002D338D /* Info.plist */,
+			);
+			path = "Quan Ly Hang Hoa";
+			sourceTree = "<group>";
+		};
+		8482EB2021C26A6B002D338D /* Quan Ly Hang HoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8482EB2121C26A6B002D338D /* Quan_Ly_Hang_HoaTests.swift */,
+				8482EB2321C26A6B002D338D /* Info.plist */,
+			);
+			path = "Quan Ly Hang HoaTests";
+			sourceTree = "<group>";
+		};
+		8482EB2B21C26A6B002D338D /* Quan Ly Hang HoaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8482EB2C21C26A6B002D338D /* Quan_Ly_Hang_HoaUITests.swift */,
+				8482EB2E21C26A6B002D338D /* Info.plist */,
+			);
+			path = "Quan Ly Hang HoaUITests";
+			sourceTree = "<group>";
+		};
+		8482EB3A21C26ACD002D338D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				848DFD2321C2ACE600600533 /* CollectionItem */,
+				848DFD2421C2ACF300600533 /* AddNewItem */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		848DFD1921C2902100600533 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				848DFD1C21C2903600600533 /* UIView+Borders.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		848DFD2321C2ACE600600533 /* CollectionItem */ = {
+			isa = PBXGroup;
+			children = (
+				8482EB0E21C26A6A002D338D /* VCCollectionItem.swift */,
+			);
+			path = CollectionItem;
+			sourceTree = "<group>";
+		};
+		848DFD2421C2ACF300600533 /* AddNewItem */ = {
+			isa = PBXGroup;
+			children = (
+				848DFD2521C2AD9700600533 /* VCAddNewItem.swift */,
+			);
+			path = AddNewItem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8482EB0821C26A6A002D338D /* Quan Ly Hang Hoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8482EB3121C26A6B002D338D /* Build configuration list for PBXNativeTarget "Quan Ly Hang Hoa" */;
+			buildPhases = (
+				8482EB0521C26A6A002D338D /* Sources */,
+				8482EB0621C26A6A002D338D /* Frameworks */,
+				8482EB0721C26A6A002D338D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quan Ly Hang Hoa";
+			productName = "Quan Ly Hang Hoa";
+			productReference = 8482EB0921C26A6A002D338D /* Quan Ly Hang Hoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8482EB1C21C26A6B002D338D /* Quan Ly Hang HoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8482EB3421C26A6B002D338D /* Build configuration list for PBXNativeTarget "Quan Ly Hang HoaTests" */;
+			buildPhases = (
+				8482EB1921C26A6B002D338D /* Sources */,
+				8482EB1A21C26A6B002D338D /* Frameworks */,
+				8482EB1B21C26A6B002D338D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8482EB1F21C26A6B002D338D /* PBXTargetDependency */,
+			);
+			name = "Quan Ly Hang HoaTests";
+			productName = "Quan Ly Hang HoaTests";
+			productReference = 8482EB1D21C26A6B002D338D /* Quan Ly Hang HoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8482EB2721C26A6B002D338D /* Quan Ly Hang HoaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8482EB3721C26A6B002D338D /* Build configuration list for PBXNativeTarget "Quan Ly Hang HoaUITests" */;
+			buildPhases = (
+				8482EB2421C26A6B002D338D /* Sources */,
+				8482EB2521C26A6B002D338D /* Frameworks */,
+				8482EB2621C26A6B002D338D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8482EB2A21C26A6B002D338D /* PBXTargetDependency */,
+			);
+			name = "Quan Ly Hang HoaUITests";
+			productName = "Quan Ly Hang HoaUITests";
+			productReference = 8482EB2821C26A6B002D338D /* Quan Ly Hang HoaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8482EB0121C26A6A002D338D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					8482EB0821C26A6A002D338D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					8482EB1C21C26A6B002D338D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8482EB0821C26A6A002D338D;
+					};
+					8482EB2721C26A6B002D338D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8482EB0821C26A6A002D338D;
+					};
+				};
+			};
+			buildConfigurationList = 8482EB0421C26A6A002D338D /* Build configuration list for PBXProject "Quan Ly Hang Hoa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8482EB0021C26A6A002D338D;
+			productRefGroup = 8482EB0A21C26A6A002D338D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8482EB0821C26A6A002D338D /* Quan Ly Hang Hoa */,
+				8482EB1C21C26A6B002D338D /* Quan Ly Hang HoaTests */,
+				8482EB2721C26A6B002D338D /* Quan Ly Hang HoaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8482EB0721C26A6A002D338D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8482EB1721C26A6B002D338D /* LaunchScreen.storyboard in Resources */,
+				848DFD2021C292F600600533 /* Assets.xcassets in Resources */,
+				8482EB1221C26A6A002D338D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8482EB1B21C26A6B002D338D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8482EB2621C26A6B002D338D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8482EB0521C26A6A002D338D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848DFD2621C2AD9700600533 /* VCAddNewItem.swift in Sources */,
+				8482EB0F21C26A6A002D338D /* VCCollectionItem.swift in Sources */,
+				8482EB0D21C26A6A002D338D /* AppDelegate.swift in Sources */,
+				848DFD1821C2895B00600533 /* UIView+Borders.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8482EB1921C26A6B002D338D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8482EB2221C26A6B002D338D /* Quan_Ly_Hang_HoaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8482EB2421C26A6B002D338D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8482EB2D21C26A6B002D338D /* Quan_Ly_Hang_HoaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8482EB1F21C26A6B002D338D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8482EB0821C26A6A002D338D /* Quan Ly Hang Hoa */;
+			targetProxy = 8482EB1E21C26A6B002D338D /* PBXContainerItemProxy */;
+		};
+		8482EB2A21C26A6B002D338D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8482EB0821C26A6A002D338D /* Quan Ly Hang Hoa */;
+			targetProxy = 8482EB2921C26A6B002D338D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8482EB1021C26A6A002D338D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8482EB1121C26A6A002D338D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8482EB1521C26A6B002D338D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8482EB1621C26A6B002D338D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8482EB2F21C26A6B002D338D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8482EB3021C26A6B002D338D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8482EB3221C26A6B002D338D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XUXX75785S;
+				INFOPLIST_FILE = "Quan Ly Hang Hoa/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LeChinhDev.Quan-Ly-Hang-Hoa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8482EB3321C26A6B002D338D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XUXX75785S;
+				INFOPLIST_FILE = "Quan Ly Hang Hoa/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LeChinhDev.Quan-Ly-Hang-Hoa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8482EB3521C26A6B002D338D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quan Ly Hang HoaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LeChinhDev.Quan-Ly-Hang-HoaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quan Ly Hang Hoa.app/Quan Ly Hang Hoa";
+			};
+			name = Debug;
+		};
+		8482EB3621C26A6B002D338D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quan Ly Hang HoaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LeChinhDev.Quan-Ly-Hang-HoaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quan Ly Hang Hoa.app/Quan Ly Hang Hoa";
+			};
+			name = Release;
+		};
+		8482EB3821C26A6B002D338D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quan Ly Hang HoaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LeChinhDev.Quan-Ly-Hang-HoaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quan Ly Hang Hoa";
+			};
+			name = Debug;
+		};
+		8482EB3921C26A6B002D338D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quan Ly Hang HoaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LeChinhDev.Quan-Ly-Hang-HoaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quan Ly Hang Hoa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8482EB0421C26A6A002D338D /* Build configuration list for PBXProject "Quan Ly Hang Hoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8482EB2F21C26A6B002D338D /* Debug */,
+				8482EB3021C26A6B002D338D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8482EB3121C26A6B002D338D /* Build configuration list for PBXNativeTarget "Quan Ly Hang Hoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8482EB3221C26A6B002D338D /* Debug */,
+				8482EB3321C26A6B002D338D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8482EB3421C26A6B002D338D /* Build configuration list for PBXNativeTarget "Quan Ly Hang HoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8482EB3521C26A6B002D338D /* Debug */,
+				8482EB3621C26A6B002D338D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8482EB3721C26A6B002D338D /* Build configuration list for PBXNativeTarget "Quan Ly Hang HoaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8482EB3821C26A6B002D338D /* Debug */,
+				8482EB3921C26A6B002D338D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8482EB0121C26A6A002D338D /* Project object */;
+}
