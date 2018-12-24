@@ -21,12 +21,12 @@ class VCCollectionItem: UIViewController {
     }
 
     @objc func rightBarButton() {
-        
+    
     }
 
     @IBAction func VCAddNewItem(_ sender: Any) {
         let sb = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "VCAddNewItem") as! VCAddNewItem
         self.navigationController?.pushViewController(sb, animated: true)
     }
-    
+//    test chinh sua mot file
 }
