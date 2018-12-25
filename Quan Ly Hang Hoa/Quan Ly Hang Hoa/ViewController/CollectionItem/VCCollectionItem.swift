@@ -29,4 +29,5 @@ class VCCollectionItem: UIViewController {
         self.navigationController?.pushViewController(sb, animated: true)
     }
 //    test chinh sua mot file
+//    chinh sua tren branch issue2
 }
