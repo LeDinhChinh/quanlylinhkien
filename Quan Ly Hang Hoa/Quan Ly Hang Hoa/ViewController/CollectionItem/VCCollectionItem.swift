@@ -29,6 +29,5 @@ class VCCollectionItem: UIViewController {
         self.navigationController?.pushViewController(sb, animated: true)
     }
 //    test chinh sua mot file
-//    test them mot phat nua
-//    push code tu mot branch khac
+//    chinh sua tren branch issue2
 }
